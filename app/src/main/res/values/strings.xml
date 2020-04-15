@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ShopNow</string>
+    <string name="password">Password</string>
+    <string name="username">UserName</string>
+
+    <string name="not_register">Not Registered ?</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="name">Name</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">SignIn</string>
+    <string name="already_member">Already Member!</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

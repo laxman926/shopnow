@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signIn"
+    android:gravity="center_horizontal"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/user"
+        android:inputType="textPersonName"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        android:paddingLeft="3dp"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/signin"
+        android:background="#fff"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_register">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="@string/signup"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
